@@ -4,7 +4,36 @@
 		<meta charset="utf-8">
 		<title>Hello</title>
 	</head>
+	<style media="screen">
+		body{
+			width: 100%;
+			height: 100%;
+			font-family: sans-serif;
+			font-weight: lighter;
+		}
+		@keyframes anim {
+			0%{top: -5vh;}
+			99.5%{top: 37vh;}
+			100%{top: 35vh;}
+		}
+		div{
+			position: absolute;
+			width: 100%;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 5vh;
+			top: 35vh;
+			margin: auto;
+			text-align: center;
+			animation-name: anim;
+			animation-duration: 2s;
+			animation-timing-function: ease-in;
+		}
+	</style>
 	<body>
-		<h1>Hello! CGI</h1>
+		<div>
+			<h1>Success</h1>
+		</div>
 	</body>
 </html>
