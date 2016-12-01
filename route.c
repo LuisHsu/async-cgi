@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
 	int inp[2], oup[2];
 	pipe(inp);
 	pipe(oup);
-	pid_t pid = fork();
+	int pid = fork();
 	if(pid == 0){
 		// Child
 		close(inp[1]);
