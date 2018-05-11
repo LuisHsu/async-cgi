@@ -1,4 +1,4 @@
-# cgi-for-string-course
+# async-cgi
 
 ## Intro
 
